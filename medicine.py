@@ -62,7 +62,7 @@ class Medicine:
         global medicineRecordList
 
         if len(medicineRecordList) == 0:
-            print("Medicines not available")
+            print("Medicines not available") 
             return
 
         for medicine in medicineRecordList:
