@@ -67,3 +67,6 @@ class Medicine:
 
         for medicine in medicineRecordList:
             print(f"Medicine ID: {medicine['id']}, Medicine name: {medicine['name']}, Medicine count: {medicine['count']}\n")
+
+
+            
