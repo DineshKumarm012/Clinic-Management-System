@@ -1,19 +1,25 @@
-# Clinic-Management-System
+# Clinic Management System
 
-# The cms project is created to reduce human effort in the small clinics and update all the records in the system
+The **Clinic Management System (CMS)** project is designed to reduce human effort in small clinics by digitizing and managing patient, doctor, medicine, and appointment records efficiently.
 
-# features list below
+## Features
 
-# Add doctor
-# Delete doctor
-# Print all doctors
-# Add medicine
-# Edit medicine
-# Delete medicine 
-# Add appointment
-# Cancel appointment
+- **Doctor Management**
+  - Add doctor
+  - Delete doctor
+  - View all doctors
 
+- **Medicine Management**
+  - Add medicine
+  - Edit medicine
+  - Delete medicine
 
-# To run the application
-# 1. Install python 3.13.7
-# 2. python main.py
+- **Appointment Management**
+  - Add appointment
+  - Cancel appointment
+
+### Prerequisites
+
+- Python 3.13.7 or higher
+
+> Note: Make sure Python is added to your system PATH.
