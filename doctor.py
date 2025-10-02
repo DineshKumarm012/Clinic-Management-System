@@ -27,7 +27,7 @@ class Doctor:
         for doctor in doctorList:
             if doctor["id"] == doctorId:
                 doctorList.remove(doctor)
-                print("Doctor remove successfully\n\n")
+                print("Doctor removed successfully\n\n")
                 return
 
         print("Doctor id not found")
@@ -35,12 +35,10 @@ class Doctor:
     def getAllDoctorInfo(self):
         global doctorList
 
-        if doctorList.length <= 0:
+        if len(doctorList) == 0:
             print("Doctors not found")
             return
 
         for doctor in doctorList:
             print(f"Doctor ID: {doctor['id']}, Doctor name: {doctor['name']}\n")
-
-        print("Doctor id not found")
 
